@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_host">
+
+    <fragment
+        android:id="@+id/nav_host"
+        android:name="com.example.thinkpad.ui.NoteFragment"
+        android:label="ThinkPad" >
+        <action
+            android:id="@+id/action_noteFragment_to_addEditNoteFragment"
+            app:destination="@id/addEditNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditNoteFragment"
+        android:name="com.example.thinkpad.ui.AddEditNoteFragment"
+        android:label="ThinkPad" >
+        <action
+            android:id="@+id/action_addEditNoteFragment_to_noteFragment"
+            app:destination="@id/nav_host" />
+        <argument
+            android:name="note"
+            app:argType="com.example.thinkpad.data.entity.Note"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="lightgreen">#90EE90</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="peachpuff">#FFDAB9</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="mistyrose">#FFE4E1</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="maincolor">#c76733</color>
+    <color name="secondmain">#ae6e4b</color>
+
+</resources>
